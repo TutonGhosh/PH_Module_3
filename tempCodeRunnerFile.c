@@ -1,4 +1,4 @@
-if (i == 5)
+if (i == 7)
         {
-            break;
+            continue;
         }

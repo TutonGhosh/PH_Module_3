@@ -5,12 +5,12 @@ int main()
     scanf("%d", &n);
     for (i = 1; i <=n; i+=1)
     {
-        if (i == 17)
+        if (i == 7)
         {
-            break;
+            continue;
         }
-
-        printf("%d\n", i); 
+        printf("%d\n", i);
     }
-    return 0;  
+    return 0;
+    
 }
